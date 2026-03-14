@@ -84,7 +84,7 @@ lib/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<GopiChandB1644>/instagram_clone.git
+git clone https://github.com/GopiChandB1644/Instragram_clone_flutter.git
 cd instagram_clone
 
 # 2. Install dependencies
