@@ -81,7 +81,7 @@ class _CarouselImagesState extends State<CarouselImages> {
                 ),
                 decoration: BoxDecoration(
                   // semi-transparent dark pill background
-                  color: Colors.black.withOpacity(0.6),
+                  color: Colors.black.withValues(alpha: 0.6),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Text(

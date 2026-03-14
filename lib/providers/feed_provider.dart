@@ -5,7 +5,7 @@ import 'package:instagram_clone/services/post_repository.dart';
 class FeedProvider extends ChangeNotifier {
   final PostRepository _repository = PostRepository();
 
-  List<Post> _posts = [];
+  final List<Post> _posts = [];
   List<Post> get posts => _posts;
 
   bool _isLoading = false;

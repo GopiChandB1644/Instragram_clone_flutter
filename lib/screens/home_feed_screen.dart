@@ -22,6 +22,7 @@ class _HomeFeedScreenState extends State<HomeFeedScreen> {
     super.initState();
 
     Future.microtask(() {
+      if (!mounted) return;
       Provider.of<FeedProvider>(context, listen: false).loadPosts();
     });
 

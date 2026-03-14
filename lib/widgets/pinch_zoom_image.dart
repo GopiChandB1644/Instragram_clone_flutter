@@ -58,9 +58,7 @@ class _PinchZoomImageState extends State<PinchZoomImage>
                   onTap: () {},
                   child: Container(
                     // opacity goes from 0 (scale=1) to 0.9 (scale=4)
-                    color: Colors.black.withOpacity(
-                      ((_scale - 1) / 3).clamp(0.0, 0.9),
-                    ),
+                    color: Colors.black.withValues(alpha: ((_scale - 1) / 3).clamp(0.0, 0.9)),
                   ),
                 ),
               ),
