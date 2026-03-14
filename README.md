@@ -6,6 +6,8 @@ A pixel-perfect replication of the Instagram Home Feed built with Flutter.
 
 ## 📱 Demo
 
+🎥 [Watch Demo on Loom](https://www.loom.com/share/a11abb14abbb4bd98b30ab4884028305)
+
 > Screen recording showing:
 > - Shimmer loading state on first launch
 > - Smooth infinite scroll with pagination
